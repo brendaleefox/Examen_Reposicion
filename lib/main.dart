@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:reposicion_flutter/presentation/router/main_router.dart';
+import 'package:reposicion_flutter/presentation/style/main_theme.dart';
 
 void main() {
   runApp(const MainApp());
@@ -7,14 +9,12 @@ void main() {
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
-  @override
+ @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+      return MaterialApp.router(
+      routerConfig: mainRouter,
+      theme: mainTheme,
+      debugShowCheckedModeBanner: false,
     );
   }
 }
