@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:reposicion_flutter/presentation/screen/menu.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -20,39 +21,7 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
      ),
-     drawer: Drawer(
-      child: ListView(
-        padding: EdgeInsets.zero,
-        children:[
-          DrawerHeader(
-            decoration: BoxDecoration(
-              color: Colors.green[50],
-            ),
-            child: const Text('Menu'),
-            ),
-            ListTile(
-              title: const Text('Inicio'),
-              onTap: (){
-                Navigator.pop(context);
-                Navigator.pushNamed(context, '/HomeScreen');
-              },
-            ),
-            ListTile(
-              title: const Text('Horario de Clases'),
-              onTap: (){
-                Navigator.pop(context);
-              },
-            ),
-            ListTile(
-              title: const Text('Lista de Notas'),
-              onTap: (){
-                Navigator.pop(context);
-              },
-            ),
-        ],
-        ),
-
-     ),
+    drawer: const Menu(),
     );
   }
 }

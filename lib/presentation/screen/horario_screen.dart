@@ -10,7 +10,7 @@ class HorarioScreen extends StatelessWidget {
       title: const Text('Reposicion Examen'),
      ),
      body: const Center(
-      child: Text('Home Screen'),
+      child: Text('Horario Screen'),
      ),
     );
   }
