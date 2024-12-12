@@ -7,7 +7,7 @@ class ListaScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
      appBar: AppBar(
-      title: const Text('Reposicion Examen'),
+      title: const Text('Lista de Notas'),
      ),
     );
   }

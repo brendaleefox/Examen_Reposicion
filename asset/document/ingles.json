@@ -1,0 +1,22 @@
+[
+    {
+        "nombre": "Carla",
+        "seccion": 369,
+        "nota": 80
+    },
+    {
+        "nombre": "Alejandro",
+        "seccion": 125,
+        "nota": 95
+    },
+    {
+        "nombre": "Aslyn",
+        "seccion": 201,
+        "nota": 91
+    },
+    {
+        "nombre": "Jose",
+        "seccion": 205,
+        "nota": 85
+    }
+]

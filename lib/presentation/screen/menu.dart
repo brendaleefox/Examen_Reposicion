@@ -31,7 +31,7 @@ class Menu extends StatelessWidget{
             ListTile(
               title: const Text('Lista de Notas'),
               onTap: (){
-                Navigator.pop(context);
+                context.push('/lista');
               },
             ),
         ],

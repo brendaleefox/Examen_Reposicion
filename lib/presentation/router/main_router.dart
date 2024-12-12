@@ -20,5 +20,5 @@ final mainRouter = GoRouter(
       path:'/lista',
       builder:(context, state) => const ListaScreen(),
     ),
-    ]
+  ]
 );
